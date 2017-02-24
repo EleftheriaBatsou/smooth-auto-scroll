@@ -1,0 +1,43 @@
+html body{
+  color:#AD1457;
+  background-color: #00838F;/*#F8BBD0;*/
+}
+a:link{color: #F8BBD0;}
+
+.box{
+  /* Position relative means the element is positioned relative to its normal position, which would be the very top left corner as it is the first div in the body. */
+  
+  /* When the position is set to relative, using display: block; and margin:auto; will automatically center the box horizontally. */
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  border: solid 4px #AD1457; /* dark pink */
+  border-radius: 20%;
+  margin-top: 5%;
+  width: 90%;
+  height: 1300px;
+ 
+}
+
+/* The width of the div is 50% and the height 67%. This means that the width is 50% of the box and the height 67% of the box. */
+.calc{
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  /* background: #00838F;  cayan */
+  
+  border-radius: 10%; 
+  padding: 5%;
+}
+
+/* the new style for the auto scroll */
+div.contentbox {
+	background: #FFF;
+	height: 450px;
+	margin: 20px;
+	font-size: 28px;
+	border: #CCC 1px dashed;
+}
